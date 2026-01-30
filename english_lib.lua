@@ -1,6 +1,7 @@
 -- Kizrak
 local english = require('locale-server.english')
 local russian = require('locale-server.russian')
+local chinese = require('locale-server.chinese')
 
 local sb = serpent.block
 
@@ -26,6 +27,8 @@ local function get_language_server_file()
 		return english
 	elseif global_map_tag_language=="ru" then
 		return russian
+	elseif global_map_tag_language=="zh" then
+		return chinese
 	end
 
 	local msg = "get_language_server_file :: Unknown language! " .. global_map_tag_language

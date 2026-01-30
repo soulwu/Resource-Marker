@@ -1,10 +1,10 @@
 {
-	"name": "resourceMarker",
-	"version": "0.8.33",
-	"title": "Resource Map Label Marker",
-	"author": "Kizrak",
+	"name": "resourceMarker-forked",
+	"version": "0.1.0",
+	"title": "Resource Map Label Marker Forked Version",
+	"author": "soulwu",
 	"contact": "",
-	"homepage": "https://github.com/abaines/Resource-Marker",
+	"homepage": "https://github.com/soulwu/Resource-Marker",
 	"factorio_version": "2.0",
 	"dependencies": [
 		"base >= 2.0.23",
